@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 2401606566489829810}
   - component: {fileID: 753569030284323311}
   - component: {fileID: 6611879430484981028}
+  - component: {fileID: 7930771664319992368}
   m_Layer: 0
   m_Name: Bumper
   m_TagString: Untagged
@@ -123,7 +124,7 @@ MonoBehaviour:
   OnHit:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 7930771664319992368}
         m_TargetAssemblyTypeName: Score, Assembly-CSharp
         m_MethodName: AddScore
         m_Mode: 3
@@ -135,3 +136,16 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &7930771664319992368
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 488724276245510159}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c5b10f9e9dfad304cb5ee6d0ddf3afc0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  meshRenderer: {fileID: 2401606566489829810}
